@@ -27,7 +27,15 @@ Website merupakan salah satu media internet yang dibuat atas dasar berbagai maca
   - Sederhana
   - Menggugah selera makan
   - Warna: kuning lemon, putih, hijau daun, dan merah gelap
-  * Insprirasi Desain:
+  - Insprirasi Desain:
+    - Beranda page
+    ![gambar 1](https://github.com/madda123/webbasohegar/blob/main/img/gambar%201.png)
+    - Produk page
+    ![gambar 2](https://github.com/madda123/webbasohegar/blob/main/img/gambar%202.png)
+    - Tentang Kami page
+    ![gambar 3](https://github.com/madda123/webbasohegar/blob/main/img/gambar%203.png)
+    - Kontak Kami page
+    ![gambar 4](https://github.com/madda123/webbasohegar/blob/main/img/gambar%204.png)
 
 ## 2. User Story
 
