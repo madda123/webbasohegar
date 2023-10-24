@@ -80,8 +80,7 @@ Website merupakan salah satu media internet yang dibuat atas dasar berbagai maca
 
 ## 6. Desain User Experience dan User Interface
 
-Bisa load image
-![Contoh](https://fastly.picsum.photos/id/318/536/354.jpg?hmac=Ixy-wle80nudIR_cmnF1iY2y6rMUH7_9sk-BP1fTpM8)
+![Desain](https://github.com/madda123/webbasohegar/blob/main/img/Desain%20Web.jpg)
 
 ## 7. Demonstrasi Video
 
