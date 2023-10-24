@@ -1,0 +1,270 @@
+:root {
+  --primary: #faf681;
+  --white: #fdfaeb;
+  --black: #2d2d2d;
+  --red: #c13f47;
+  --red2: #f36769;
+  --brown: #481510;
+}
+
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: var(--white);
+  background-image: url(img/bg-fix.png);
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Navbar Start */
+
+.navigasi {
+  width: 100%;
+  height: 5rem;
+  background-color: var(--primary);
+  display: flex;
+  padding: 1.4rem 3%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 0.05rem 0.05rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.navigasi-logo img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.navigasi .navigasi-nav a {
+  color: var(--red);
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+.navigasi .navigasi-extra a {
+  color: var(--red);
+  display: none;
+}
+
+.navigasi .navigasi-nav a:hover {
+  color: var(--brown);
+}
+
+.navigasi .navigasi-extra a:hover {
+  color: var(--brown);
+}
+
+/* Navbar End */
+
+/* Content Start */
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-content: space-around;
+}
+
+.toko {
+  margin-top: 7rem;
+  width: 95%;
+  border-radius: 10px;
+}
+
+form {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0.05rem 0.05rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--red);
+}
+
+input {
+  border-radius: 2px;
+  background-color: #ececdc;
+  padding: 5px;
+  width: 100%;
+}
+
+#exampleInputText4 {
+  height: 20%;
+}
+.btn {
+  margin-top: 1rem;
+  color: var(--red);
+  background-color: var(--primary);
+  width: 5rem;
+  height: 2rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+}
+
+/* Content End */
+
+/* Footer Start */
+
+#footer1 {
+  padding: 0.5rem 1rem;
+  margin-top: 5rem;
+  background-color: var(--black);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#sosmed img {
+  display: inline-block;
+  margin: 0 0.5rem;
+  width: 30px;
+  height: 30px;
+}
+
+#logofooter {
+  width: 5rem;
+  height: 5rem;
+}
+
+#footer2 {
+  padding: 0.5rem;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: var(--white);
+  font-size: small;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#sosmed img:hover {
+  transform: scale(90%);
+}
+/* Footer End */
+
+/* Media Queris */
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    background-image: url(img/bg-fix2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .navigasi {
+    justify-content: space-between;
+  }
+
+  .navigasi .navigasi-nav {
+    position: absolute;
+    right: -100%;
+    top: 100%;
+    background-color: var(--white);
+    width: 20rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+
+  /* .navigasi .navigasi-nav.active {
+      right: 0;
+    } */
+
+  .navigasi .navigasi-nav a {
+    color: var(--red2);
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .navigasi .navigasi-extra a {
+    color: var(--red);
+    display: inline-block;
+  }
+
+  #sosmed img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #footer1 {
+    margin-top: 3rem;
+    bottom: 0;
+  }
+
+  #footer2 {
+    font-size: 9px;
+    bottom: 0;
+  }
+}
+
+/* Handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    background-image: url(img/bg-fix3.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .navigasi .navigasi-nav a {
+    color: var(--red2);
+    display: block;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  #footer1 {
+    padding: 0 11px;
+  }
+
+  #sosmed img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #footer2 {
+    font-size: smaller;
+  }
+}
