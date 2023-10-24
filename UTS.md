@@ -27,7 +27,15 @@ Website merupakan salah satu media internet yang dibuat atas dasar berbagai maca
   - Sederhana
   - Menggugah selera makan
   - Warna: kuning lemon, putih, hijau daun, dan merah gelap
-  * Insprirasi Desain:
+  - Insprirasi Desain:
+    - Beranda page
+      ![gambar 1](https://github.com/madda123/webbasohegar/blob/main/img/gambar%201.png)
+    - Produk page
+      ![gambar 2](https://github.com/madda123/webbasohegar/blob/main/img/gambar%202.png)
+    - Tentang Kami page
+      ![gambar 3](https://github.com/madda123/webbasohegar/blob/main/img/gambar%203.png)
+    - Kontak Kami page
+      ![gambar 4](https://github.com/madda123/webbasohegar/blob/main/img/gambar%204.png)
 
 ## 2. User Story
 
@@ -41,21 +49,34 @@ Website merupakan salah satu media internet yang dibuat atas dasar berbagai maca
 
 ## 3. Struktur Data
 
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
-
-```mermaid
-erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
-```
+- Halaman Beranda
+  - Highlight produk terbaik berdasarkan rating user pada halaman produk
+  - Lokasi warung
+  - Video promosi
+- Halaman Produk
+  - Deskripsi produk
+  - Nama user dalam komentar
+  - Rating dan komentar produk
+- Halaman Tentang Kami
+  - Informasi mengenai web, visi, misi, dan sejarah perusahaan
+- Halaman Kontak Kami
+  - Informasi nama, alamat, telepon, dan email
+  - Pesan user untuk perusahaan (termasuk untuk sementara segala hal mengenai pemesanan dilakukan disini)
 
 ## 4. Arsitektur Sistem
 
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
+- Client Side
+  - Web browser, digunakan untuk mengakses website hingga bisa melakukan interaksi yang lebih kompleks
+- Server Side
+  - Web server, digunakan untuk menerima permintaan dan mengirimkan seseuatu sebagai pemenuhan permintaan user
+  - Database, menyimpan dan mengelola data yang diperlukan oleh website
 
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
+- HTML
+- CSS
+- Javascript
+- GIT sebagai version control system
 
 ## 6. Desain User Experience dan User Interface
 
