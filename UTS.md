@@ -29,13 +29,13 @@ Website merupakan salah satu media internet yang dibuat atas dasar berbagai maca
   - Warna: kuning lemon, putih, hijau daun, dan merah gelap
   - Insprirasi Desain:
     - Beranda page
-      ![gambar 1](https://github.com/madda123/webbasohegar/blob/main/img/gambar%201.png)
+      ![gambar 1](https://github.com/madda123/webbasohegar/blob/main/gambar%20untuk%20md/gambar%201.png)
     - Produk page
-      ![gambar 2](https://github.com/madda123/webbasohegar/blob/main/img/gambar%202.png)
+      ![gambar 2](https://github.com/madda123/webbasohegar/blob/main/gambar%20untuk%20md/gambar%202.png)
     - Tentang Kami page
-      ![gambar 3](https://github.com/madda123/webbasohegar/blob/main/img/gambar%203.png)
+      ![gambar 3](https://github.com/madda123/webbasohegar/blob/main/gambar%20untuk%20md/gambar%203.png)
     - Kontak Kami page
-      ![gambar 4](https://github.com/madda123/webbasohegar/blob/main/img/gambar%204.png)
+      ![gambar 4](https://github.com/madda123/webbasohegar/blob/main/gambar%20untuk%20md/gambar%204.png)
 
 ## 2. User Story
 
@@ -80,7 +80,7 @@ Website merupakan salah satu media internet yang dibuat atas dasar berbagai maca
 
 ## 6. Desain User Experience dan User Interface
 
-![Desain](https://github.com/madda123/webbasohegar/blob/main/img/Desain%20Web.jpg)
+![Desain](https://github.com/madda123/webbasohegar/blob/main/gambar%20untuk%20md/Desain%20Web.jpg)
 
 ## 7. Demonstrasi Video
 
